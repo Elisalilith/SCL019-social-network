@@ -1,6 +1,6 @@
 import { getAuth, signInWithEmailAndPassword,onAuthStateChanged} from "https://www.gstatic.com/firebasejs/9.6.8/firebase-auth.js";
-import { app } from "../Firebase.js";
-import { registerGoogle } from "../lib/register.js";
+import { app } from "../firebase.js";
+import { registerGoogle } from "./register.js";
 import { muroPage } from "./muro.js";
 
 
@@ -12,7 +12,7 @@ export function loginMe() {
     const loginV =document.createElement('div');
    const loginView = ` <div class="containerLogin" id="containerLogin"> 
     <div class="formlogin" id="formlogin">
-    <img src="/imagenes/logo-lucchi.png" id="logoLogin">
+    <img src="imagenes/logo-lucchi.png" id="logoLogin">
     <label class="labelLoginMe">Ingresa tu Email</label>
     <input class="inputLoginMe" id="email" type="email">
     <label class="labelLoginMe">Ingresa tu contraseña</label>

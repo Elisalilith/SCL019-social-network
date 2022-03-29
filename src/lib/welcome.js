@@ -8,7 +8,7 @@ export function welcomePage () {
  const welcome =document.createElement('div');
                  
   const welcomeView = ` <div class="containerWelcome" id="containerWelcome"> 
-          <img src="/imagenes/logo-lucchi.png" id="logoWelcome">
+          <img src="imagenes/logo-lucchi.png" id="logoWelcome">
           <button class="btn1 login" id="btnLogin" type="submit" >Iniciar Sesión</button> <br>
           <button class="btn2 register" id="btnRegister" type="submit">Registrarse</button>
           </div>

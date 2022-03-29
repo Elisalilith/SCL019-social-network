@@ -1,5 +1,5 @@
 import { getAuth, createUserWithEmailAndPassword,GoogleAuthProvider,signInWithPopup} from "https://www.gstatic.com/firebasejs/9.6.8/firebase-auth.js";
-import {app } from "../Firebase.js";
+import {app } from "../firebase.js";
 import { login } from "./login.js";
 
 
@@ -15,7 +15,7 @@ export function registerMe() {
   
   const registerView = `<div class="containerRegister" id="containerRegister">
     <div class="formRegister" id="formRegister">
-    <img src="/imagenes/logo-lucchi.png" id="logoRegister">
+    <img src="imagenes/logo-lucchi.png" id="logoRegister">
     <label class="labelRegisterMe">Nombre de usuario</label>
     <input class="inputRegisterMe" id="name">
     <label class="labelRegisterMe">Ingresa tu Email</label>

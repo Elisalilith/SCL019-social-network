@@ -13,7 +13,7 @@ export function muroPage() {
     
     const muroView = `<div class="containerMuro" id="containerMuro">
      <header class="encabezadoMuro" id="encabezadoMuro">
-      <img src="/imagenes/logo-lucchi-H.png" id="logoMuro" class="logoMuro">
+      <img src="imagenes/logo-lucchi-H.png" id="logoMuro" class="logoMuro">
       <button class="logOut" id="btnLogOut"><i class="fa-solid fa-power-off"></i> </button>
      </header>
      <div class="mainPost" id="mainPost">
